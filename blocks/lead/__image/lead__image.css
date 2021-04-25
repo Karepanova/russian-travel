@@ -1,0 +1,5 @@
+.lead__image {
+    /*background: url("../../../images/lead-polka.jpg") no-repeat;*/
+   display: block;
+    width: 100%;
+}
