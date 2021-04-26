@@ -1,6 +1,7 @@
 .photo-grid {
-    display: inline-grid;
-    grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(3, 213px);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 16px;
+    margin: 0 48px;
 }
