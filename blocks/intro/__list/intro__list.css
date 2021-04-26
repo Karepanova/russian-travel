@@ -1,0 +1,8 @@
+.intro__list {
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: normal;
+    max-width: 690px;
+    list-style: none;
+    padding: 0;
+}
