@@ -32,33 +32,3 @@
 .cover:hover:before {
     opacity: 0.8;
 }
-
-.cover__background {
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -2;
-    max-width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.cover__title {
-    line-height: 76px;
-    font-size: 72px;
-    font-weight: 900;
-    max-width: 560px;
-    text-align: center;
-    margin: 0 0 32px 0;
-}
-
-.cover__subtitle {
-    line-height: 22px;
-    font-size: 18px;
-    font-weight: normal;
-    max-width: 360px;
-    text-align: center;
-    margin: 0;
-}
