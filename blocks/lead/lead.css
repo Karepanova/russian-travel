@@ -4,3 +4,21 @@
     align-items: center;
     margin: 0 148px;
 }
+
+@media all and (max-width: 1024px) {
+    .lead {
+    margin: 0 48px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .lead {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .lead {
+        margin: 0 2px 0 2px;
+    }
+}
