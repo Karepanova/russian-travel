@@ -10,20 +10,34 @@
             "place__image place__paragraphs";
 }
 
-@media all and (max-width: 1024px) {
+.place:last-child {
+    margin-bottom: 0;
+}
+
+@media all and (max-width: 1280px) {
     .place {
         margin-bottom: 73px;
         grid-column-gap: 32px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
     .place {
         margin-bottom: 73px;
         grid-column-gap: 28px;
     }
 }
 
-.place:last-child {
-    margin-bottom: 0;
+@media all and (max-width: 768px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-row-gap: 32px;
+        grid-template-areas:
+                "place__title"
+                "place__website"
+                "place__image"
+                "place__paragraphs";
+    }
 }
+

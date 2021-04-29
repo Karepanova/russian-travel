@@ -1,5 +1,5 @@
 .header__lang-link {
-    text-decoration: none;
+    /*text-decoration: none;*/
     /*display: inline;*/
     margin-left: 18px;
     color: #FFFFFF;
@@ -11,4 +11,11 @@
 
 .header__lang-link:hover {
     opacity: 0.5;
+}
+
+@media all and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

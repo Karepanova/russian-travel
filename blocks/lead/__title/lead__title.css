@@ -4,13 +4,25 @@
     font-weight: 900;
     max-width: 720px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0 20px;
 }
 
-@media all and (max-width: 320px) {
+
+
+
+@media all and (max-width: 740px) {
+    .lead__title {
+        line-height: 58px;
+        font-size: 54px;
+    }
+}
+
+
+@media all and (max-width: 430px) {
     .lead__title {
         line-height: 44px;
         font-size: 40px;
-        max-width: 90%;
+        padding: 0;
     }
 }

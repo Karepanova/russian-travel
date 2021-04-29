@@ -4,3 +4,9 @@
     font-weight: normal;
     color: #FFFFFF;
 }
+
+@media all and (max-width: 320px) {
+    .place__link {
+        margin: 0 16px;
+    }
+}
