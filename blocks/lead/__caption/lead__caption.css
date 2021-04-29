@@ -5,6 +5,7 @@
     margin: 8px 0 0 0;
     align-self: flex-start;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 @media all and (max-width: 768px) {
